@@ -18,7 +18,7 @@ function btn_wa() {
           var nomor = document.getElementById('nomor').value;
           var nama = document.getElementById('nama').value;
           var pesan = document.getElementById('pesan').value;
-          var win = window.open('https://api.whatsapp.com/send?phone='+nomor+'&text=*HALO ADMIN ALOPEDIA!*%0aPerkenalkan%20saya%20'+nama+',%0a'+pesan);
+          var win = window.open('https://api.whatsapp.com/send?phone='+nomor+'&text=*HALO BIOALGAE!*%0aPerkenalkan%20saya%20'+nama+',%0a'+pesan);
           if (win) {
               //Browser has allowed it to be opened
               win.focus();

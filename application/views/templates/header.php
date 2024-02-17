@@ -3,29 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Bioalgae Semarang</title>
+	<title>Sprintes Gold Spirulina - Bioalgae</title>
 	<!-- <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style-2.css"> -->
 	<link rel="icon"href="<?php echo base_url(); ?>assets/img/logo-navbar.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Alopedia merupakan penyedia jasa dalam bidang pengembangan perangkat lunak dan media digital seperti pengembangan web, aplikasi Android, desain grafis, animasi 2D/3D, video editing, dan fotografi.">
+  <meta name="description" content="PT. Bio Algae Internasional berdiri pada 07 Oktober 2022 merupakan perusahaan yang bergerak dibidang pemasaran produk-produk BioTech dengan menggunakan bahan baku yang diambil dari sumber daya alam di Indonesia yang menghasilkan produk berupa pangan, kesehatan, kosmetik, perawatan tubuh, pertanian, pakan ternak, dan energi">
 
   <!-- Social Media Meta Tags - Facebook -->
-  <meta property="og:title" content="Alopedia Software and Digital Services">
-  <meta property="og:description" content="Jasa pengembangan perangkat lunak dan media digital">
-  <meta property="og:image" content="<?php echo base_url(); ?>assets/img/logo-alopedia.png">
-  <meta property="og:url" content="https://myalopedia.com">
+  <meta property="og:title" content="Sprintes Gold Spirulina - Bioalgae">
+  <meta property="og:description" content="Sprintes Gold Spirulina - Bioalgae">
+  <meta property="og:image" content="<?php echo base_url(); ?>assets/img/alonavbar.jpg">
+  <meta property="og:url" content="https://bioalgae-product.com">
 
   <!-- Social Media Meta Tags - Twitter -->
-  <meta name="twitter:title" content="Alopedia Software and Digital Services">
-  <meta name="twitter:description" content="Jasa pengembangan perangkat lunak dan media digital">
-  <meta name="twitter:url" content="<?php echo base_url(); ?>assets/img/logo-alopedia.png">
-  <meta name="twitter:card" content="Alopedia merupakan penyedia jasa dalam bidang pengembangan perangkat lunak dan media digital seperti pengembangan web, aplikasi Android, desain grafis, animasi 2D/3D, video editing, dan fotografi.">
+  <meta name="twitter:title" content="Sprintes Gold Spirulina - Bioalgae">
+  <meta name="twitter:description" content="Sprintes Gold Spirulina - Bioalgae">
+  <meta name="twitter:url" content="<?php echo base_url(); ?>assets/img/alonavbar.jpg">
+  <meta name="twitter:card" content="PT. Bio Algae Internasional berdiri pada 07 Oktober 2022 merupakan perusahaan yang bergerak dibidang pemasaran produk-produk BioTech dengan menggunakan bahan baku yang diambil dari sumber daya alam di Indonesia yang menghasilkan produk berupa pangan, kesehatan, kosmetik, perawatan tubuh, pertanian, pakan ternak, dan energi">
 
 	<!-- Google Fonts -->
-  <!--   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+  <!--   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Crimson+Text:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@500&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="<?php echo base_url(); ?>assets/vendor/aos/aos.css" rel="stylesheet">

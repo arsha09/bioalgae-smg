@@ -9,10 +9,10 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
 
 body {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Crimson Text',sans-serif;
   color: #444444;
   /* margin: 0;
   padding: 0; */
@@ -20,6 +20,14 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
 }
 
 h2 {
@@ -42,7 +50,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -153,8 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-  background: url('../img/bg-jumbotron.jpg') no-repeat center center fixed;
- padding: 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url('../img/bg-jumbotron.jpg') no-repeat center center fixed;
+ padding: 5% 10% 10% 10%;
  margin-top: 0px;
  margin-bottom: 0px;
  text-align: center;
@@ -166,23 +174,9 @@ h1, h2, h3, h4, h5, h6 {
  color: #cfb81e;
 }
 
-.jumbotron-sub {
- background: url('../img/bg-jumbotron.jpg') no-repeat center center fixed;
-padding: 5%;
-margin-top: 0px;
-margin-bottom: 0px;
-text-align: center;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;
-/* color: #18392B; */
-color: #ffffff;
-}
-
 .jumbotron img {
-  height: 120px; 
-  margin: 30px;
+  height: 300px; 
+  margin-top: 10px;
 }
 
 .jumbotron-sub img {
@@ -220,7 +214,7 @@ color: #ffffff;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #cfb81e;
   white-space: nowrap;
@@ -420,7 +414,7 @@ color: #ffffff;
   font-size: 24px;
 }
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -627,7 +621,7 @@ section {
   margin-bottom: 0;
 }
 .about .content .btn-learn-more {
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -665,7 +659,7 @@ section {
   margin-top: 5px;
 }
 .why-us .content p {
-  font-size: 15px;
+  font-size: 20px;
   color: #848484;
 }
 .why-us .img {
@@ -687,15 +681,13 @@ section {
   margin-top: 5px;
 }
 .why-us-two .content p {
-  font-size: 15px;
+  font-size: 20px;
   color: #ffffff;
 }
-.why-us .img {
-  width: 10%;
-   height: auto;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
+.why-us-two .img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .why-us .accordion-list {
   padding: 0 100px 60px 100px;
@@ -715,7 +707,7 @@ section {
 .why-us .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -755,25 +747,27 @@ section {
   display: none;
 }
 @media (max-width: 1024px) {
-  .why-us .content, .why-us .accordion-list {
+  .why-us .content, .why-us .accordion-list, .why-us-two .content, .why-us-two .accordion-list {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media (max-width: 992px) {
-  .why-us .img {
+  .why-us .img, .why-us-two .img {
     min-height: 400px;
+    width: 100%;
   }
-  .why-us .content {
+  .why-us .content, .why-us-two .content {
     padding-top: 30px;
   }
-  .why-us .accordion-list {
+  .why-us .accordion-list, .why-us-two .accordion-list {
     padding-bottom: 30px;
   }
 }
 @media (max-width: 575px) {
-  .why-us .img {
+  .why-us .img, .why-us-two .img {
     min-height: 200px;
+    width: 100%;
   }
 }
 
@@ -784,7 +778,7 @@ section {
   font-weight: 700;
   font-size: 32px;
   color: #18392B;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
 }
 .skills .content ul {
   list-style: none;
@@ -813,7 +807,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   color: #18392B;
 }
 .skills .progress .skill .val {
@@ -875,7 +869,7 @@ section {
 .cta {
   background: linear-gradient(rgba(24, 57, 43, 0.9), rgba(24, 57, 43, 0.9)), url("../img/bg-jumbotron.jpg") fixed center center;
   background-size: cover;
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .cta h3 {
   color: #fff;
@@ -886,7 +880,7 @@ section {
   color: #fff;
 }*/
 .cta .cta-btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -933,7 +927,7 @@ section {
   transition: all 0.3s;
   padding: 8px 20px;
   border-radius: 50px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   background: #0F5132;
@@ -1153,7 +1147,7 @@ section {
   font-size: 48px;
   color: #18392B;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   margin-bottom: 25px;
 }
 .pricing h4 sup {
@@ -1199,7 +1193,7 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   transition: 0.3s;
   border: 1px solid #0F5132;
 }
@@ -1258,7 +1252,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1585,7 +1579,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   color: #5e5e5e;
 }
 #footer .footer-top h4 {
@@ -1691,7 +1685,8 @@ section {
 }
 
 .section2 {
-  padding: 100px 30px 30px 30px;
+  /* padding: 100px 30px 30px 30px; */
+  padding: 30px;
 }
 
 .section6 {
@@ -1766,8 +1761,8 @@ section {
 }
 
 .card2{
-    width: 20%;
-    height: 300px;
+    width: 15%;
+    height: 200px;
     display: inline-block;
     margin: 5px;
     transition: all ease-in-out 0.4s;
@@ -2048,4 +2043,126 @@ footer img {
 
 .description {
   margin: 30px !important;
+}
+
+.img-main {
+  z-index: 100;
+}
+
+.img-sprintes {
+  position: absolute; 
+  width: 40%; 
+  top: 85%; 
+  right: 30%;
+}
+
+.div-img {
+  height: 300px;
+}
+
+@media all and (max-width: 1500px) {
+  .img-sprintes {
+    width: 50%; 
+    top: 130%; 
+    right: 25%;
+  }
+}
+
+@media all and (max-width: 1200px) {
+  .img-sprintes {
+    width: 50%; 
+    top: 75%; 
+    right: 25%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .img-sprintes {
+    width: 50%; 
+    top: 90%; 
+    right: 25%;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .img-sprintes {
+    width: 70%; 
+    top: 80%; 
+    right: 15%;
+  }
+
+  .div-img {
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .img-sprintes {
+    width: 70%; 
+    top: 85%; 
+    right: 15%;
+  }
+
+  .div-img {
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .img-sprintes {
+    width: 70%; 
+    top: 85%; 
+    right: 15%;
+  }
+
+  .div-img {
+    height: 200px;
+  }
+}
+
+.image-stack {
+  position: relative;
+  align-items: center;
+  padding: 150px;
+  margin-left: 24%;
+  overflow: hidden;
+}
+
+.image-stack img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300px;
+  animation: zoom-in 2s forwards;
+}
+
+@media all and (max-width: 800px) {
+  .image-stack {
+    margin-left: 24%;
+    padding: 100px;
+  }
+
+  .image-stack img {
+    height: 200px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .image-stack {
+    margin-left: 0%;
+  }
+}
+
+.image-stack:hover .child {
+  transform: scale(1); 
+  opacity: 1; 
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1; 
+  }
 }
